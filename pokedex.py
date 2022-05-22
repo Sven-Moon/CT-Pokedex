@@ -112,7 +112,7 @@ class Pokedex:
                 acknowledge()
                 return None
         else:
-            return self.get(name)
+            return self.pokemon.get(name)
 
     def get_pokemon_by_type(self, type_name):
         # populate pokemon names from type if not already
